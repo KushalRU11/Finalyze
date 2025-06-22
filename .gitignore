@@ -1,0 +1,38 @@
+# === ENVIRONMENT VARIABLES ===
+.env
+.env.*  # If you use .env.local, .env.production, etc.
+
+# === DEPENDENCIES ===
+node_modules/
+
+# === BUILD OUTPUT ===
+.next/
+out/
+dist/
+
+# === SYSTEM FILES ===
+.DS_Store
+
+# === LOG FILES ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === PACKAGE MANAGERS ===
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# === PRISMA ===
+prisma/dev.db
+prisma/dev.db-journal
+
+# === VSCODE SETTINGS (optional) ===
+.vscode/
+
+# === STATIC GENERATED FILES ===
+*.log
+*.tgz
+
+# === JEST / TESTING (if used) ===
+coverage/
